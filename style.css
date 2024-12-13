@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.main{
+    height:80%;
+    width:80%;
+    padding: 50px;
+    background-color: beige;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+    row-gap: 20px;
+    column-gap: 20px; 
+    
+}
+#box{
+    height: 250px;
+   
+}
+.box1{
+    background-color:rgb(240, 212, 152);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1 h1{
+    color: rgb(129, 100, 64);
+    font-size: 40px;
+}
+.box1 span{
+    color: black;
+}
+.box2{
+    background-color: #eeebe3;
+    /* display: flex;
+    flex-direction: column;   */
+}
+.part1{
+    height: 50%;
+    width: 100%;
+    /* background-color: #6f6464; */
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+#lele{
+     height:90%;
+     width: 30%;
+     /* background-color: #955c5c; */
+}
+.a{
+    background-image: url(./accessories2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.b{
+    background-image: url(./accessories3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.c{
+    background-image: url(./accessories6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.part2{
+    height: 50%;
+    width: 100%;
+    /* background-color: #412525; */
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+#lassan{
+    width: 46%;
+    height: 90%;
+   /* background-color: red; */
+}
+.d{
+    background-image: url(./accessories4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.e{
+    background-image: url(./accessories5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.box3{
+    background-color: #eeebe3;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#data{
+    height: 70%;
+    width: 27%;
+    background-color: blue;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.data1{
+    background-image: url(./accessories7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.data2{
+    background-image: url(./accessories8.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.data3{
+    background-image: url(./accessories9.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.box4{
+    background-color: rgb(177, 177, 177);
+    text-align: center;
+    font-size: 35px;
+    padding-top: 50px;
+}
+.box4 span{
+    color: rgb(136, 97, 20);
+    
+}
+.box5{
+    display: flex;
+   background-color: rgb(246, 225, 184);
+
+}
+.im{
+    height: 100%;
+    width: 50%;
+    background-image: url(./accessories10.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.box5 span{
+     color: rgb(136, 97, 20);
+}
+.box5 h1{
+    padding-left: 20px;
+    padding-top: 50px;
+    font-size:45px ;
+}
+.box6{
+    background-color: rgb(246, 242, 242);
+}
+.lodu{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    gap: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    align-items: center;
+    justify-content: center;
+}
+.one{
+      height: 90px;
+      width: 90px;
+      background-image: url(./accessories11.jpg);
+      background-position: center;
+      background-repeat: no repeat;
+       background-size: cover;
+}
+.two{
+    height: 90px;
+    width: 90px;
+   background-image: url(./accessories12.jpg);
+   background-position: center;
+   background-repeat: no repeat;
+   background-size: cover;
+}
+.three{
+    height: 90px;
+    width: 90px;
+    background-image: url(./accessories13.jpg);
+   background-position: center;
+   background-repeat: no repeat;
+   background-size: cover;
+     
+}
+.para{
+    height: 50%;
+    width: 100%;
+    /* background-color: rgb(220, 40, 40); */
+    display: flex;
+    gap: 30px;
+}
+.para h1{
+    font-size: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    padding-top: 10px;
+}
